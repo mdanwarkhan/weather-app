@@ -1,0 +1,18 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+footer {
+    
+}
+
+form {
+    margin-top: 20px;
+}
+img {
+    width: 240px;
+}
