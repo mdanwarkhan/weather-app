@@ -10,6 +10,21 @@ footer {
     
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+button {
+    background: gray;
+    color: white;
+}
+
 form {
     margin-top: 20px;
 }
