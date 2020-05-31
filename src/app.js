@@ -37,28 +37,6 @@ app.get('/help' , (req,res) => {
     })
 })
 
-// route url 
-// app.get('', (req, res) => {
-//    res.send('<h1>express<h1>')
-// })
-
-// app.get('/help', (req, res) => {
-//     res.send({
-//         name: 'Anwar',
-//         age: 24
-//     })
-//  })
-
-//  app.get('/about', (req, res) => {
-//     res.send('<h1>express<h1>')
-//  })
-
-//  app.get('/weather', (req, res) => {
-//     res.send({
-//         forecast: 'Clear sky',
-//         location: 'Bengaluru'
-//     })
-//  })
 app.get('/help/*', (req,res) => {
     res.render('404', {
         title: 404,
